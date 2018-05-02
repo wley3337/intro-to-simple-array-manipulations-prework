@@ -43,5 +43,5 @@ def using_delete(array,delete_me)
   array.delete(delete_me)
 end
 
-def using_delete_at(array, home)
-  array.delete
+def using_delete_at(array, address)
+  array.delete_at(address)
